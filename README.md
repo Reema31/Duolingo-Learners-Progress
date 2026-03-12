@@ -3,6 +3,7 @@
 > Analyzing how Duolingo learners acquire and retain vocabulary over time, with a focus on the **memory effect** and spaced repetition patterns.
 
 ---
+![DuoHi](https://github.com/user-attachments/assets/4ca4ad05-2ce5-4b27-b05d-744bcf5b2df9)
 
 ## Project Overview
 
@@ -18,7 +19,7 @@ Key questions explored:
 
 ## Dataset Note
 
-> **The original dataset was too large to work with directly**, so a **sample dataset** was used for this analysis to keep computation manageable.
+> **The original dataset was too large to implement in github and streamlit directly**, so a **sample dataset** was used for this analysis to keep computation manageable.
 
 The original full dataset (~12.8 million learning events) is publicly available on Kaggle:
 
@@ -94,6 +95,13 @@ README.md                       # Project documentation
 
 ---
 
+## Key Differences between working on the original dataset (in duolingo_learners_progress) and sample dataset (in app.py):
+Due to the reduced sample size, some visualizations differ from the full dataset results. Notable differences include:
+The forgetting Curve
+<img width="899" height="694" alt="Screenshot 2026-03-12 144847" src="https://github.com/user-attachments/assets/2343d27b-7c4e-45c0-b340-4b60a9eaa469" />
+
+Estimated Difficulty by Learning Language
+<img width="875" height="546" alt="Screenshot 2026-03-12 145055" src="https://github.com/user-attachments/assets/2e84a0c5-0838-4e23-9aad-308c055bc255" />
 
 ## References
 
